@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="">
+	<head>
+	 	<!-- Required meta tags always come first --
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Title Page</title>
+
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/css/bootstrap.css">
+		<!-- jQuery -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+		<style>
+		@font-face {
+		    font-family: form_font;
+		    src: url("font/ONEDAY.otf");
+		}
+
+
+		.button {
+		    background-color: rgb(231, 100,31);
+		    border: none;
+		    color: white;
+		    padding: 15px 32px;
+		    text-align: center;
+		    text-decoration: none;
+		    display: inline-block;
+		    font-size: 26px;
+		    margin: 4px 2px;
+		    cursor: pointer;
+		    width:300px;
+		    height:100px;
+		    font-family:form_font;
+		}
+		
+		.bg_img {
+		    background-image: url("img/EduChange Image.jpg");
+    		background-repeat: no-repeat;
+    		padding: auto;
+    		margin: auto;
+    		background-size:50%;
+    		background-position: center top;
+		}
+
+		p,label
+		{
+			font-family: arial,sans-serif;
+			font-weight: normal!important;
+		}
+		.box_shadow
+		{
+			box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)!important;
+		}
+		</style>
+	</head>
+
+	<body class="bg_img">
+		<div class="container">
+		  <div class="row">
+		    <div class="col-md-12" style="height:550px;">
+		    	<p>&nbsp;</p>
+		    </div>
+		    <div class="col-md-12 text-center">
+		      <h2>In <font style="color:rgb(231, 100,31)">2017</font> we are going big. </font></h2>
+		    </div>
+		    <div class="col-md-8 text-center col-md-offset-2">
+		      <p><font>For one week in September 2017, educators are gathering from all over Australia to meet, teach and inspire each other. With events run across Melbourne by Education Changemakers (www.educationchangemakers.com) and some of our friends, tailored for different audiences including STEM, new teachers, education leaders and the EC tribe, this is THE education event of 2017. Expect the vibe of a regular EC event, and then dial it up a few notches. This is going to be epic.</font></p>
+		    </div>
+		    <div class="col-md-12 box_shadow">
+		      <form  action="mailto:educhange@educationchangemakers.com" method="post" enctype="text/plain">
+		      	  <div class="form-group row" style="margin-top:20px">
+				    <label for="your_name" class="col-md-2 col-form-label">Your name:</label>
+				    <div class="col-md-10">
+				    	<input type="your_name" class="form-control" id="name" name="name">
+				    </div>
+				  </div>
+				  <div class="form-group row">
+				    <label for="your_email" class="col-md-2 col-form-label">Your Email:</label>
+				    <div class="col-md-10">
+				    	<input type="your_email" class="form-control" id="mail" name="mail">
+				    </div>
+				  </div>
+				  <div class="form-group row">
+				    <label for="your_role" class="col-md-4 col-form-label">Your role and your school or organisation:</label>
+				    <div class="col-md-8">
+				    	<input type="your_role" class="form-control" id="roleandschool" name="roleandschool">
+				    </div>
+				  </div>
+				  <div class="form-group row">
+				    <label for="your_content" class="col-md-12 col-form-label">What specific events or speakers would you love to see during EduChange Week (ie New
+Teachers, STEM, Indigenous Leaders, Australian teachers on stage, big names from
+overseas):</label>
+					<div class="col-md-12">
+				    	<textarea type="password" class="form-control" id="content" name="content" rows="5"></textarea>
+				    </div>
+				  </div>
+				  <div class="form-group row text-center">
+				  	<button class="button">Submit</button>
+				  </div>
+			  </form>
+		    </div>
+		    <div class="col-md-12 text-center" style=" margin-top:20px;">
+				  	<p>powered by</p>
+			</div>
+		    <div class="col-md-12 text-center">
+			  	<a href="http://www.educationchangemakers.com"><img src="img/EC Simple.jpg" style="width:50px;height:50px;"></a>
+			</div>
+		  </div>
+	</body>
+</html>
